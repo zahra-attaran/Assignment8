@@ -1,0 +1,746 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: #ffbc00;
+}
+
+.menu li:hover {
+    background-color: #ffbc00;
+    color: black;
+}
+
+.submenu {
+    list-style-type: none;
+    width: 50%;
+}
+
+.submenu > li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.dropdowm {
+    position: relative;
+}
+
+.subDropdowm {
+    position: absolute;
+    display: none;
+}
+
+.dropdowm:hover .subDropdowm {
+    display: block;
+    background-color: black;
+    color: #ffbc00;
+    margin-top: 10px;
+}
+
+.subDropdowm li {
+    list-style-type: none;
+    padding: 10px 5px;
+    margin: 5px;
+}
+
+.search {
+    padding: 10px;
+    margin: 20px;
+    text-align: right;
+    width: 50%;
+}
+
+.search .searchInput {
+    /*display: none;*/
+    border: 1px solid grey;
+    background-color: darkgray;
+    width: 20%;
+    text-align: right;
+}
+
+.searchIcon {
+    font-size: 18px;
+}
+
+.searchInput:focus {
+    width: 80%;
+    border: 2px solid grey;
+}
+
+.mobileMenu {
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    background-color: black;
+    color: #ffbc00;
+    display: none;
+    font-size: 18px !important;
+}
+
+.mobileMenu li:hover {
+    background-color: #ffbc00;
+    color: black;
+}
+
+.mobilSubmenu {
+    list-style-type: none;
+    width: 25%;
+    display: none;
+
+}
+
+.mobilSubmenu > li {
+    /*display: inline-block;*/
+    /*display: block;*/
+    padding: 10px;
+    font-size: 12px;
+
+}
+
+.mobilDropdowm {
+    position: relative;
+}
+
+.mobilSubDropdowm {
+    position: absolute;
+    display: none;
+}
+
+.mobilDropdowm:hover .mobilSubDropdowm {
+    display: block;
+    background-color: black;
+    color: #ffbc00;
+    margin-top: 10px;
+}
+
+.mobilSubDropdowm li {
+    list-style-type: none;
+    padding: 10px 5px;
+    margin: 5px;
+}
+
+.background {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url("Img/laptop-g8cdeaf4bf_1920.jpg");
+}
+
+.ourTeam {
+    margin: 0px auto;
+}
+
+.headerourTeam {
+    text-align: center;
+    margin: 2px auto;
+}
+
+.headerColoes {
+    color: #ffbc00;
+}
+
+.headerourTeam p {
+    color: white;
+}
+
+.Team {
+    display: flex;
+    justify-content: space-around;
+}
+
+.secTeam {
+    text-align: center;
+}
+
+.ImageTeam {
+    border-radius: 50%;
+    display: block;
+    width: 50%;
+    height: 50%;
+    margin: 20px auto;
+    transform: scale(1, 1);
+    transition: 1s ease-in-out;
+}
+
+.ImageTeam:hover {
+    transform: scale(1.25, 1.25);
+    transition: 1s ease-in-out;
+}
+
+.nameTeam {
+    color: #ffbc00;
+}
+
+.job {
+    color: white;
+}
+
+.ourWork {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #363535;
+}
+
+
+.technology img {
+    width: 100%;
+}
+
+.text {
+    width: 25%;
+    margin: 20px;
+}
+
+.text h1 {
+    color: #ffbc00;
+    margin: 5px auto;
+}
+
+.technology {
+    width: 25%;
+    padding: 15px;
+
+}
+
+.technology div {
+    background-color: #c1bebe;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.technology img {
+    opacity: 0.75;
+
+}
+
+.technology img:hover {
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+}
+
+.technology span {
+    margin: 20px;
+    text-align: center;
+    display: block;
+}
+
+.technology span i {
+    margin: 5px 20px;
+}
+
+.technology span i:hover {
+    color: red;
+}
+
+.HeaderOurWork {
+    color: #363535;
+    text-align: center;
+}
+
+.OurWorkText {
+    color: black;
+    text-align: center;
+}
+
+.headerPricing {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.secPrice {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 33%;
+    padding: 15px;
+}
+
+.card div {
+    border: 1px solid white;
+    box-shadow: 0 0 20px grey;
+}
+
+.headerPriceBasic, .headerPricePermium {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.headerPricePro {
+
+    background-color: #252525;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+}
+
+.card p {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+.price {
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    margin: 10px;
+}
+
+.footer {
+    background-color: #c1bebe;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .SignUp {
+    background-color: #18a518;
+    color: white;
+    border: 1px solid #18a518;
+    padding: 8px 15px;
+    border-radius: 8px;
+    min-width: 95px;
+}
+
+.SignUp:hover {
+    margin: 19px 35%;
+}
+
+.ContactUs {
+    background-color: #363535;
+    margin-top: 100px;
+    display: flex;
+}
+
+.Contact {
+    width: 40%;
+    padding: 20px;
+}
+
+.Contact h1 {
+    color: #ffbc00;
+    border-bottom: #18a518 solid 5px;
+    width: 120px;
+}
+
+.Contact h2 {
+    color: black;
+}
+
+.Contact p, .Contact span {
+    font-size: 18px;
+    color: black;
+    margin: 2px 20px;
+}
+
+.Contact i {
+    color: #ffbc00;
+    margin: 8px 5px;
+}
+
+.formContactUs {
+    width: 60%;
+    padding: 20px;
+}
+
+.formContactUs div {
+    background-color: #c1bebe;
+    border-radius: 10px;
+}
+
+.formContactUs p {
+    color: black;
+    margin: 10px 20px;
+}
+
+.formContactUs input {
+    background-color: transparent;
+    border: 1px solid transparent;
+    width: 95%;
+    margin: 5px;
+}
+
+.formContact input:focus {
+    border: 2px solid #ffbc00;
+    background-color: white;
+    padding: 10px;
+}
+
+.formContactFooter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.check {
+    display: inline;
+}
+
+.spanCheck {
+    display: inline;
+    color: black;
+}
+
+formContactFooter div {
+    display: flex;
+    padding: 20px;
+}
+
+.check {
+    width: 10px !important;
+}
+
+.formContactFooter button {
+    background-color: #252525;
+    margin: 10px 30px;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+.intersection {
+    width: 100%;
+    height: calc(100vh - 100px);
+}
+
+.btnFlw {
+    text-align: center;
+    padding: 10px;
+    background-color: #ffbc00;
+    color: black;
+    margin: 10px;
+    border-radius: 2px;
+}
+
+.btnFlw:hover {
+    background-color: black;
+    color: #ffbc00;
+    margin: 10px;
+}
+
+.Container {
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .background {
+        width: 100%;
+    }
+
+    .Team {
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .background {
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .secTeam {
+        display: inline-block;
+        width: 33%;
+        margin: 0px;
+        padding: 0;
+        border: 0;
+        outline: 0;
+    }
+
+    .ourWork {
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .technology {
+        display: inline-block;
+        width: 33%;
+        margin: 0px;
+        padding: 0;
+        border: 0;
+        outline: 0;
+    }
+
+    .text {
+        display: inline-block;
+        width: 100%;
+        margin: 0px;
+        padding: 0;
+        border: 0;
+        outline: 0;
+    }
+
+    .technology div {
+        margin: 20px;
+    }
+
+    .text {
+        font-size: 26px;
+        text-align: left;
+    }
+
+    .text div {
+        margin: 20px;
+    }
+
+    .secPrice {
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        display: inline-block;
+        width: 33%;
+        margin: 0px;
+        padding: 0;
+        border: 0;
+        outline: 0;
+    }
+
+    .card div {
+        margin: 20px;
+    }
+
+    .ContactUs {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .Contact {
+        display: inline-block;
+        width: 40%;
+        margin: 0px;
+        padding: 0;
+    }
+
+    .formContactUs {
+        display: inline-block;
+        width: 60%;
+        margin: 0px;
+        padding: 0;
+    }
+
+    .formContact {
+        margin: 25px 0px;
+    }
+
+    .formContactUs input {
+        width: 85%;
+    }
+
+    .footer .SignUp {
+        margin: 0px 35%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .menu {
+        display: none;
+    }
+
+    .mobileMenu {
+        margin: 20px 50px !important;
+        display: block;
+        font-size: 24px;
+        background-image: url("Img/laptop-g8cdeaf4bf_1920.jpg");
+    }
+
+    .mobileMenu:hover .mobilSubmenu {
+        display: block;
+    }
+
+    .background {
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+
+    .Team {
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .secTeam {
+        display: inline-block;
+        width: 50%;
+        margin: 0px;
+        padding: 0;
+        border: 0;
+        outline: 0;
+    }
+
+    .ourWork {
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .technology, .text {
+        display: inline-block;
+        width: 50%;
+        margin: 0px;
+        padding: 0;
+        border: 0;
+        outline: 0;
+    }
+
+    .technology div {
+        margin: 20px;
+    }
+
+    .text {
+        font-size: 26px;
+        text-align: left;
+    }
+
+    .text div {
+        margin: 20px;
+    }
+
+    .secPrice {
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        display: inline-block;
+        width: 50%;
+        margin: 0px;
+        padding: 0;
+        border: 0;
+        outline: 0;
+    }
+
+    .card div {
+        margin: 20px;
+    }
+
+    .ContactUs {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .Contact {
+        display: inline-block;
+        width: 40%;
+        margin: 0px;
+        padding: 0;
+    }
+
+    .formContactUs {
+        display: inline-block;
+        width: 60%;
+        margin: 0px;
+        padding: 0;
+    }
+
+    .formContact {
+        margin: 25px 0px;
+    }
+
+    .formContactUs input {
+        width: 85%;
+    }
+
+    .footer .SignUp {
+        margin: 0px 35%;
+    }
+}
+
+@media only screen and (max-width: 768px ) {
+    .menu {
+        display: none;
+    }
+
+    .mobileMenu {
+        display: block;
+        background-image: url("Img/laptop-g8cdeaf4bf_1920.jpg");
+    }
+
+    .mobileMenu:hover .mobilSubmenu {
+        display: block;
+    }
+
+    .background {
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .Team {
+        display: block;
+    }
+
+    .secTeam {
+        display: block;
+        width: 100%;
+    }
+
+    .ourWork {
+        display: block;
+    }
+
+    .text {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .technology {
+        width: auto;
+    }
+
+    .secPrice {
+        display: block;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .ContactUs {
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .Contact {
+        display: inline-block;
+        width: 100%;
+        margin: 0px;
+        padding: 0;
+    }
+
+    .formContactUs {
+        display: inline-block;
+        width: 100%;
+        margin: 0px;
+        padding: 0;
+    }
+    .formContactUs input {
+        width: 85%;
+    }
+
+    .footer .SignUp {
+        margin: 0px 35%;
+    }
+}
